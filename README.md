@@ -14,3 +14,6 @@ Text on the cover of a book.
 ![](http://i.imgur.com/UOvT7xH.jpg)
 
 In the result I included a similarity percentage and a piece of information about each font.
+
+## Goal
+My goal is to create a smartphone app that uses this engine to recognize fonts.
