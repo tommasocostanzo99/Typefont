@@ -1,5 +1,4 @@
 # Typefont
-
 Here I'm working on this algorithm that tries to recognize the font of a text in a photo.
 
 ## Why this poor readme?
