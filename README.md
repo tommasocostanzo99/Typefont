@@ -9,4 +9,8 @@ Ok so here I used it with my favorite Italian apple juice.
 
 ![](http://i.imgur.com/SiMymFN.jpg)
 
+Text on the cover of a book.
+
+![](http://i.imgur.com/UOvT7xH.jpg)
+
 In the result I included a similarity percentage and a piece of information about each font.
