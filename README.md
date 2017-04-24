@@ -11,6 +11,7 @@ Typefont("path/image.png")
     .catch((err) => console.log(err));
 ```
 The first argument can be a string with the path to the image or base64, the instance of a canvas or the instance of a image.
+
 Here I used it with my favorite Italian apple juice and other objects in my house.
 
 ![](http://i.imgur.com/SiMymFN.jpg)
