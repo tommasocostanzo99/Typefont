@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="http://imgh.us/logo_589.svg" width="256">
-</p>
+#Typefont
+
+<img src="http://imgh.us/logo_589.svg" width="256">
 
 Here I'm working on this algorithm that tries to recognize the font of a text in a photo.
 
