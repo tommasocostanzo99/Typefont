@@ -6,11 +6,18 @@ My goal is also that the image must be the only input avoiding other manual proc
 ## Usage
 Just call this function.
 ```javascript
+import Typefont from "typefont";
+
 Typefont("path/image.png")
     .then((res) => console.log(res))
     .catch((err) => console.log(err));
 ```
 The first argument can be a string with the path to the image or base64, the instance of a canvas or the instance of a image.
+
+To build the project you can use Webpack then you can use Babel
+```shell
+webpack src/app.js build/typefont.js
+```
 
 Here I used it with my favorite Italian apple juice and other objects in my house.
 
