@@ -12,7 +12,7 @@ Typefont("path/image.png")
     .then((res) => console.log(res))
     .catch((err) => console.log(err));
 ```
-The first argument can be a string with the path to the image or base64, the instance of a canvas or the instance of a image.
+The first argument can be: a string with the path to the image, a string with the base64 data of the image, the instance of a canvas, the instance of a image.
 
 To build the project.
 ```shell
