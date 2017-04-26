@@ -51,3 +51,7 @@ If you want to add a new font you must follow this structure.
 }
 ```
 Each key of the meta object is included in the final result.
+
+## Todo
+I'm trying to create a comparison method dedicated to this project that considers human perception to get more accurate results. I'm completely new to this technology so maybe my approach is completely wrong but it seems to work and I'm learning new things with much fun.
+You are free to collaborate, you can contact me, we can discuss about ideas.
