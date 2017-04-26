@@ -1,7 +1,7 @@
 # Typefont
 Here I’m working on this algorithm that tries to recognize the font of a text in a photo. My goal is to obtain accurate results with the image as only input avoiding other manual processes.
 
-## About
+## Why
 I had just discovered the version of [Tesseract](http://tesseract.projectnaptha.com/) written in JavaScript and I noticed that he was also trying to identify the font, I wondered how to improve this process then I used Tesseract to
 extract the letters from the input image, I created a new system that uses the [Jimp](https://github.com/oliver-moran/jimp) image processing library to compare the extracted letters with the fonts in a dedicated library.
 
