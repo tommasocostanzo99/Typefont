@@ -1,6 +1,6 @@
 /**
  * @module OpticalRecognition Used as Optical Character Recognition module.
- * @dependence Tesseract <https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js>
+ * Tesseract <https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js>
  * @author Vasile Pește <sirvasile@protonmail.ch>
 */
 

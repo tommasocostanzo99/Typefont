@@ -1,9 +1,5 @@
 /**
  * @module Typefont Used to recognize the font of a text in a image.
- * @dependence FontStorage
- * @dependence ImageDrawing
- * @dependence OpticalRecognition
- * @dependence ImageComparison
  * @author Vasile Pește <sirvasile@protonmail.ch>
 */
 
@@ -22,7 +18,7 @@ const Typefont = (
         const _OPTIONS = {
             // The minimum confidence that a symbol must have to be accepted in the comparison queue.
             minSymbolConfidence: 30,
-            // Used as pixel base image comparison threshold.
+            // Used as pixel based image comparison threshold.
             analyticComparisonThreshold: 0.52161,
             // Scale the images to the same size before comparison?
             sameSizeComparison: true

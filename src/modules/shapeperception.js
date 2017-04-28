@@ -1,6 +1,5 @@
 /**
  * @module ShapePerception Used to compare images using a method that considers human perception.
- * @dependence ImageDrawing
  * @author Vasile Pește <sirvasile@protonmail.ch>
 */
 

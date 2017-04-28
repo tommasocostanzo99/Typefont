@@ -123,7 +123,7 @@ const FontStorage = (
 "use strict";
 /**
  * @module ImageComparison Used to compare images using methods based on perception and pixels comparison.
- * @dependence Jimp <https://cdn.rawgit.com/oliver-moran/jimp/v0.2.27/browser/lib/jimp.min.js>
+ * Jimp <https://cdn.rawgit.com/oliver-moran/jimp/v0.2.27/browser/lib/jimp.min.js>
  * @author Vasile Pește <sirvasile@protonmail.ch>
 */
 
@@ -342,7 +342,7 @@ const ImageDrawing = class {
 "use strict";
 /**
  * @module OpticalRecognition Used as Optical Character Recognition module.
- * @dependence Tesseract <https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js>
+ * Tesseract <https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js>
  * @author Vasile Pește <sirvasile@protonmail.ch>
 */
 
@@ -388,10 +388,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modules_imagecomparison__ = __webpack_require__(1);
 /**
  * @module Typefont Used to recognize the font of a text in a image.
- * @dependence FontStorage
- * @dependence ImageDrawing
- * @dependence OpticalRecognition
- * @dependence ImageComparison
  * @author Vasile Pește <sirvasile@protonmail.ch>
 */
 
@@ -410,7 +406,7 @@ const Typefont = (
         const _OPTIONS = {
             // The minimum confidence that a symbol must have to be accepted in the comparison queue.
             minSymbolConfidence: 30,
-            // Used as pixel base image comparison threshold.
+            // Used as pixel based image comparison threshold.
             analyticComparisonThreshold: 0.52161,
             // Scale the images to the same size before comparison?
             sameSizeComparison: true

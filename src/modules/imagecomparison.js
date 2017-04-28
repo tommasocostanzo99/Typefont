@@ -1,6 +1,6 @@
 /**
  * @module ImageComparison Used to compare images using methods based on perception and pixels comparison.
- * @dependence Jimp <https://cdn.rawgit.com/oliver-moran/jimp/v0.2.27/browser/lib/jimp.min.js>
+ * Jimp <https://cdn.rawgit.com/oliver-moran/jimp/v0.2.27/browser/lib/jimp.min.js>
  * @author Vasile Pește <sirvasile@protonmail.ch>
 */
 
