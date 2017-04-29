@@ -109,7 +109,7 @@ const ImageDrawing = class {
         for (let i = 0, ll = data.length; i < ll; i += 4)
             union += (data[i] + data[i + 1] + data[i + 2]) / 3;
         
-        return union / (data.length / 3);
+        return union / data.length / 3;
     }
     
     /**

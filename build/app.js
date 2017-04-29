@@ -301,7 +301,7 @@ const ImageDrawing = class {
         for (let i = 0, ll = data.length; i < ll; i += 4)
             union += (data[i] + data[i + 1] + data[i + 2]) / 3;
         
-        return union / (data.length / 3);
+        return union / data.length / 3;
     }
     
     /**
@@ -413,17 +413,6 @@ const Typefont = (
         };
         
         /**
-         * _getRandomNumber Get a random number in a specific range.
-         * @param {Number} min
-         * @param {Number} max
-         * @return {Number}
-        */
-        
-        const _getRandomNumber = (min, max) => {
-            return Math.floor(Math.random() * (max - min + 1)) + min;
-        };
-        
-        /**
          * _symbolsToBase64 Get the base64 data image/png of the symbols recognized in a image.
          * @param {ImageDrawing} img The ImageDrawing instance of the recognized image.
          * @param {Object} res The result of the recognition process.
@@ -519,7 +508,8 @@ const Typefont = (
          *     "index": [
          *         "font-name",
          *         "font-name-1",
-         *         "font-name-2"
+         *         "font-name-2",
+         *         ...
          *     ]
          * }
          * @param {String} [url = "storage/index.json"] The url of the fonts index JSON file.
@@ -543,12 +533,15 @@ const Typefont = (
          * {
          *     "meta": {
          *         "name": "...,
-         *         "uri": "..."
+         *         "author": "...",
+         *         "uri": "...",
+         *         ...
          *     },
          *     "alpha": {
          *         "a": "base64",
          *         "b": "base64",
-         *         "c": "base64"
+         *         "c": "base64",
+         *         ...
          *     }
          * }
          * @param {String} name The name of the font.
